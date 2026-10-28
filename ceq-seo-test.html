@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Тестовое задание CEQ — SEO-специалист</title>
+<style>
+:root{
+  --bg:#ffffff;
+  --ink:#1c1c1a;
+  --quiet:#6a6a66;
+  --edge:#dcdcd8;
+  --rule:#eeeeec;
+  --accent:#2563eb;
+  --accent-soft:rgba(37,99,235,.10);
+  --tint:#f4f4f2;
+  --code-bg:#f4f4f2;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#16161a;
+    --ink:#e9e9e4;
+    --quiet:#a3a39d;
+    --edge:#3a3a40;
+    --rule:#2a2a30;
+    --accent:#6ea8fe;
+    --accent-soft:rgba(110,168,254,.14);
+    --tint:#1f1f25;
+    --code-bg:#22222a;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#16161a;
+  --ink:#e9e9e4;
+  --quiet:#a3a39d;
+  --edge:#3a3a40;
+  --rule:#2a2a30;
+  --accent:#6ea8fe;
+  --accent-soft:rgba(110,168,254,.14);
+  --tint:#1f1f25;
+  --code-bg:#22222a;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font:16px/1.65 ui-sans-serif,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-feature-settings:"liga" 1,"kern" 1;
+}
+.wrap{max-width:860px;margin:0 auto;padding:56px 16px 96px}
+h1{font-size:30px;line-height:1.25;letter-spacing:-.015em;margin:0 0 10px;font-weight:650}
+h2{font-size:22px;line-height:1.3;letter-spacing:-.01em;margin:52px 0 14px;padding-top:22px;border-top:1px solid var(--rule);font-weight:650}
+h3{font-size:17px;line-height:1.35;margin:30px 0 8px;font-weight:650}
+h2+p,h3+p{margin-top:0}
+p{margin:0 0 14px}
+ul,ol{margin:0 0 14px;padding-left:22px}
+li{margin:0 0 7px}
+li>ul,li>ol{margin-top:7px}
+strong{font-weight:650}
+a{color:var(--accent);text-decoration:none;border-bottom:1px solid color-mix(in srgb,var(--accent) 35%,transparent)}
+a:hover{border-bottom-color:var(--accent)}
+code{
+  font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  background:var(--code-bg);
+  padding:.12em .36em;
+  border-radius:4px;
+  white-space:nowrap;
+}
+.byline{color:var(--quiet);font-size:14px;margin:0 0 26px}
+.lead{font-size:17px;line-height:1.6}
+.tablewrap{overflow-x:auto;margin:0 0 18px;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:14px;line-height:1.5}
+th,td{border:1px solid var(--edge);padding:9px 11px;text-align:left;vertical-align:top}
+th{background:var(--tint);font-weight:650}
+figure{margin:22px 0 10px}
+figure svg{display:block;width:100%;height:auto}
+figcaption{color:var(--quiet);font-size:13px;margin-top:8px}
+.note{color:var(--quiet);font-size:14px}
+hr{border:0;border-top:1px solid var(--rule);margin:40px 0}
+@media (max-width:640px){
+  .wrap{padding:36px 16px 72px}
+  h1{font-size:25px}
+  h2{font-size:20px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Тестовое задание CEQ — SEO-специалист</h1>
+<p class="byline">28 октября 2026 · Тимур Симонов</p>
+
+<p class="lead">CEQ в поисковой выдаче не представлен, поэтому план строится как запуск с нуля: за 6 месяцев реалистично занять не общие ВЧ-запросы вроде «crypto payment gateway» (там годами стоят BitPay, Coinbase Commerce и агрегаторы), а коммерческий хвост — сравнения с конкурентами, интеграции с CMS, приём конкретных монет — и места в сторонних источниках, из которых ИИ собирает ответы.</p>
+
+<h2>Вводные и допущения</h2>
+
+<p>Перед планом фиксирую, на чём он построен, потому что от этого зависят приоритеты.</p>
+
+<p><strong>Что я проверил.</strong> CEQ не находится в поисковой выдаче ни по брендовому запросу, ни в отраслевых каталогах и подборках крипто-процессингов. Исхожу из того, что органического следа у продукта нет: ни страниц в индексе, ни упоминаний, ни ссылочного профиля. Если домен и сайт уже существуют, первые две недели уйдут на аудит и правку того, что есть, но логика плана не изменится.</p>
+
+<p><strong>Допущения, которые я достраиваю сам:</strong></p>
+<ul>
+<li>Основной язык сайта — английский, аудитория международная. Русская версия имеет смысл второй, если среди действующих клиентов есть русскоязычный сегмент.</li>
+<li>Ниша финансовая, то есть YMYL. Доверие здесь не оформление, а ранжирующий фактор: без юрлица, юрисдикции, AML-политики и живых людей на сайте страницы не выходят в топ по коммерческим запросам и не попадают в ИИ-ответы.</li>
+<li>У продукта есть действующие клиенты. Это главный актив на старте: из них делаются отзывы на G2, кейсы и первые упоминания. Без них план по ИИ-видимости растягивается на лишние три месяца.</li>
+</ul>
+
+<p><strong>Логика приоритетов.</strong> Задача звучит как «максимально быстро занять позиции», и ключевое решение здесь — от каких запросов отказаться. Общие высокочастотники (<code>crypto payment gateway</code>, <code>accept crypto payments</code>) занимают BitPay, Coinbase Commerce, CoinGate и агрегаторы вроде G2 — у них годы истории домена и тысячи ссылок, молодой сайт там не конкурирует и за год. Поэтому приоритет такой:</p>
+
+<ol>
+<li><strong>Коммерческий хвост с низкой конкуренцией и высокой конверсией</strong> — сравнения (<code>cryptocloud alternative</code>), интеграции (<code>woocommerce crypto payment plugin</code>), приём конкретных монет и сетей (<code>accept usdt trc20 payments</code>). Запросов меньше, но пользователь на них уже выбирает поставщика.</li>
+<li><strong>Присутствие в сторонних источниках</strong> — каталоги, подборки, Reddit, LinkedIn. Это одновременно канал трафика, ссылочный профиль и единственный быстрый способ попасть в ИИ-выдачу: модель не может процитировать то, чего нет в корпусе.</li>
+<li><strong>Общие запросы</strong> — не раньше, чем через 9–12 месяцев, и только после того как накопится траст на первых двух пунктах.</li>
+</ol>
+
+<p>По тому же принципу расставлены требования к разработчикам: в пятёрку попало только то, что дорого переделывать после запуска.</p>
+
+<h2>Задание 1. Структура сайта</h2>
+
+<figure>
+<svg viewBox="0 0 760 596" role="img" aria-label="В первую волну идут только продающие страницы и доверие" font-size="13" xmlns="http://www.w3.org/2000/svg">
+  <text x="24" y="28" font-size="15" font-weight="600" fill="var(--ink)">В первую волну идут только продающие страницы и доверие</text>
+  <text x="24" y="48" font-size="11.5" fill="var(--quiet)">Структура сайта CEQ: 14 разделов, три волны запуска</text>
+
+  <rect x="24" y="68" width="712" height="172" rx="8" fill="var(--tint)" stroke="var(--edge)" stroke-width="1.25"/>
+  <text x="40" y="90" font-weight="600" fill="var(--ink)">Волна 1 — запуск</text>
+
+  <rect x="40" y="100" width="216" height="56" rx="8" fill="none" stroke="var(--edge)" stroke-width="1.25"/>
+  <text x="56" y="124" font-weight="600" fill="var(--ink)">/</text>
+  <text x="56" y="142" font-size="11.5" fill="var(--quiet)">бренд и общие ВЧ</text>
+
+  <rect x="272" y="100" width="216" height="56" rx="8" fill="none" stroke="var(--edge)" stroke-width="1.25"/>
+  <text x="288" y="124" font-weight="600" fill="var(--ink)">/pricing/</text>
+  <text x="288" y="142" font-size="11.5" fill="var(--quiet)">цены в HTML, без регистрации</text>
+
+  <rect x="504" y="100" width="216" height="56" rx="8" fill="none" stroke="var(--edge)" stroke-width="1.25"/>
+  <text x="520" y="124" font-weight="600" fill="var(--ink)">/docs/</text>
+  <text x="520" y="142" font-size="11.5" fill="var(--quiet)">API, SDK, вебхуки, sandbox</text>
+
+  <rect x="40" y="168" width="216" height="56" rx="8" fill="var(--accent)" fill-opacity="0.12" stroke="var(--accent)" stroke-width="2"/>
+  <text x="56" y="192" font-weight="600" fill="var(--ink)">/integrations/[cms]/</text>
+  <text x="56" y="210" font-size="11.5" fill="var(--quiet)">WooCommerce, Shopify, Tilda</text>
+
+  <rect x="272" y="168" width="216" height="56" rx="8" fill="var(--accent)" fill-opacity="0.12" stroke="var(--accent)" stroke-width="2"/>
+  <text x="288" y="192" font-weight="600" fill="var(--ink)">/vs/[competitor]/</text>
+  <text x="288" y="210" font-size="11.5" fill="var(--quiet)">CryptoCloud, NOWPayments</text>
+
+  <rect x="504" y="168" width="216" height="56" rx="8" fill="none" stroke="var(--edge)" stroke-width="1.25"/>
+  <text x="520" y="192" font-weight="600" fill="var(--ink)">/compliance/</text>
+  <text x="520" y="210" font-size="11.5" fill="var(--quiet)">юрисдикция, лицензия, AML</text>
+
+  <rect x="24" y="256" width="712" height="172" rx="8" fill="none" stroke="var(--edge)" stroke-width="1.25"/>
+  <text x="40" y="278" font-weight="600" fill="var(--ink)">Волна 2 — месяцы 2–3</text>
+
+  <rect x="40" y="288" width="216" height="56" rx="8" fill="var(--accent)" fill-opacity="0.12" stroke="var(--accent)" stroke-width="2"/>
+  <text x="56" y="312" font-weight="600" fill="var(--ink)">/accept/[coin]/</text>
+  <text x="56" y="330" font-size="11.5" fill="var(--quiet)">BTC, USDT TRC20, ETH, USDC</text>
+
+  <rect x="272" y="288" width="216" height="56" rx="8" fill="var(--accent)" fill-opacity="0.12" stroke="var(--accent)" stroke-width="2"/>
+  <text x="288" y="312" font-weight="600" fill="var(--ink)">/industries/[vertical]/</text>
+  <text x="288" y="330" font-size="11.5" fill="var(--quiet)">SaaS, e-com, онлайн-школы</text>
+
+  <rect x="504" y="288" width="216" height="56" rx="8" fill="none" stroke="var(--edge)" stroke-width="1.25"/>
+  <text x="520" y="312" font-weight="600" fill="var(--ink)">/supported-coins/</text>
+  <text x="520" y="330" font-size="11.5" fill="var(--quiet)">монеты, сети, комиссии</text>
+
+  <rect x="40" y="356" width="216" height="56" rx="8" fill="none" stroke="var(--edge)" stroke-width="1.25"/>
+  <text x="56" y="380" font-weight="600" fill="var(--ink)">/learn/</text>
+  <text x="56" y="398" font-size="11.5" fill="var(--quiet)">инфоспрос, верх воронки</text>
+
+  <rect x="272" y="356" width="216" height="56" rx="8" fill="none" stroke="var(--edge)" stroke-width="1.25"/>
+  <text x="288" y="380" font-weight="600" fill="var(--ink)">/about/, /team/</text>
+  <text x="288" y="398" font-size="11.5" fill="var(--quiet)">E-E-A-T, живые люди и юрлицо</text>
+
+  <rect x="24" y="444" width="712" height="104" rx="8" fill="none" stroke="var(--edge)" stroke-width="1.25"/>
+  <text x="40" y="466" font-weight="600" fill="var(--ink)">Волна 3 — месяцы 4–6</text>
+
+  <rect x="40" y="476" width="216" height="56" rx="8" fill="none" stroke="var(--edge)" stroke-width="1.25"/>
+  <text x="56" y="500" font-weight="600" fill="var(--ink)">/case-studies/</text>
+  <text x="56" y="518" font-size="11.5" fill="var(--quiet)">кейсы с цифрами</text>
+
+  <rect x="272" y="476" width="216" height="56" rx="8" fill="none" stroke="var(--edge)" stroke-width="1.25"/>
+  <text x="288" y="500" font-weight="600" fill="var(--ink)">/research/</text>
+  <text x="288" y="518" font-size="11.5" fill="var(--quiet)">свои данные, ссылки</text>
+
+  <rect x="504" y="476" width="216" height="56" rx="8" fill="none" stroke="var(--edge)" stroke-width="1.25"/>
+  <text x="520" y="500" font-weight="600" fill="var(--ink)">/status/, /changelog/</text>
+  <text x="520" y="518" font-size="11.5" fill="var(--quiet)">сигнал живого продукта</text>
+
+  <rect x="24" y="562" width="14" height="14" rx="4" fill="var(--accent)" fill-opacity="0.12" stroke="var(--accent)" stroke-width="2"/>
+  <text x="46" y="574" font-size="11.5" fill="var(--quiet)">Шаблонные группы (pSEO): один шаблон — десятки страниц</text>
+</svg>
+<figcaption>структура сайта CEQ · 14 разделов, три волны запуска</figcaption>
+</figure>
+
+<p>В первую волну идёт только то, что закрывает коммерческий интент и подтверждает доверие. Четыре шаблонные группы, выделенные цветом, дают основной прирост страниц дальше: один шаблон — десятки URL без новой разработки.</p>
+
+<h3>Карта разделов и запросов</h3>
+
+<p>Структура собрана не по логике «как удобно нам рассказывать о продукте», а по тому, как клиент ищет: по монете, по своей CMS, по своей нише или по сравнению с тем, что у него уже стоит. Четыре шаблонные группы (<code>/accept/</code>, <code>/integrations/</code>, <code>/industries/</code>, <code>/vs/</code>) — это каркас для pSEO: один шаблон, десятки страниц, предсказуемый рост.</p>
+
+<div class="tablewrap">
+<table>
+<thead><tr><th>Раздел</th><th>Что закрывает</th><th>Примеры запросов</th><th>Волна</th></tr></thead>
+<tbody>
+<tr><td><code>/</code></td><td>Бренд и общие ВЧ</td><td>crypto payment gateway, accept crypto payments</td><td>1</td></tr>
+<tr><td><code>/pricing/</code></td><td>Самый частый вопрос к поиску и к ИИ</td><td>ceq fees, crypto gateway fees comparison</td><td>1</td></tr>
+<tr><td><code>/integrations/&lt;cms&gt;/</code></td><td>Интеграционные запросы — самый горячий интент</td><td>woocommerce crypto payment plugin, shopify accept usdt</td><td>1</td></tr>
+<tr><td><code>/vs/&lt;competitor&gt;/</code>, <code>/alternatives/&lt;competitor&gt;/</code></td><td>Сравнения и перехват клиентов конкурентов</td><td>cryptocloud alternative, nowpayments vs cryptomus</td><td>1</td></tr>
+<tr><td><code>/docs/</code></td><td>Технические запросы разработчиков, которые и принимают решение</td><td>crypto payment api, usdt payment webhook</td><td>1</td></tr>
+<tr><td><code>/compliance/</code>, <code>/security/</code>, <code>/aml-policy/</code></td><td>Доверие (YMYL) — без этого не ранжируется остальное</td><td>is ceq safe, crypto gateway without kyc, aml policy</td><td>1</td></tr>
+<tr><td><code>/accept/&lt;coin&gt;/</code></td><td>Запросы по конкретным монетам и сетям</td><td>accept bitcoin payments, accept usdt trc20</td><td>2</td></tr>
+<tr><td><code>/industries/&lt;vertical&gt;/</code></td><td>Сегментные запросы по нишам</td><td>accept crypto payments for saas, crypto payments for online school</td><td>2</td></tr>
+<tr><td><code>/supported-coins/</code>, <code>/supported-networks/</code></td><td>Справочные запросы и машиночитаемые факты для ИИ</td><td>supported networks, erc20 vs trc20 fees</td><td>2</td></tr>
+<tr><td><code>/learn/</code> (блог)</td><td>Информационный спрос и верх воронки</td><td>what is a crypto payment gateway, crypto chargebacks</td><td>2</td></tr>
+<tr><td><code>/about/</code>, <code>/team/</code>, <code>/contact/</code></td><td>E-E-A-T и брендовая выдача</td><td>ceq review, who owns ceq</td><td>2</td></tr>
+<tr><td><code>/customers/</code>, <code>/case-studies/&lt;name&gt;/</code></td><td>Доказательства и цитируемые цифры</td><td>ceq case study, crypto payments conversion rate</td><td>3</td></tr>
+<tr><td><code>/research/</code></td><td>Свои данные — источник естественных ссылок</td><td>average network fee usdt, crypto payments statistics</td><td>3</td></tr>
+<tr><td><code>/status/</code>, <code>/changelog/</code></td><td>Сигнал живого продукта для B2B-клиента</td><td>ceq status, ceq uptime</td><td>3</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Два решения в этой структуре, которые стоит оговорить отдельно.</p>
+
+<p><strong>Документация — в подпапке <code>/docs/</code>, а не на поддомене <code>docs.ceq.*</code>.</strong> На молодом домене растаскивать траст на два хоста невыгодно, а документация даёт самый качественный трафик и ссылки с GitHub и Stack Overflow.</p>
+
+<p><strong>Цены открыты и лежат в HTML.</strong> Половина процессингов прячет тарифы за «запросить демо». Это сразу выбрасывает сайт из ответов на самый частый вопрос ниши — сколько стоит — и отдаёт его тем, у кого цифры видны.</p>
+
+<h2>Задание 1. Пять SEO-требований к разработчикам</h2>
+
+<p>Отбирал по одному критерию: что дороже всего переделывать после запуска. Оптимизировать тексты и мета-теги можно в любой момент, а перевод SPA на серверный рендеринг или смена структуры URL через полгода — это спринт разработки плюс просадка на переиндексацию.</p>
+
+<h3>1. Весь значимый контент отдаётся в HTML от сервера</h3>
+<p><strong>Что сделать.</strong> Публичные страницы — SSR или SSG. В первом ответе сервера должны быть все тексты, цены, таблицы, заголовки и навигация. Все внутренние переходы — через <code>&lt;a href&gt;</code>, не через <code>onclick</code> или кнопки. Личный кабинет может остаться SPA — он всё равно закрыт от индексации.</p>
+<p><strong>Зачем.</strong> Яндекс и краулеры ИИ (GPTBot, ClaudeBot, PerplexityBot) JavaScript практически не исполняют. Что не пришло в HTML — для них не существует. Для задачи «попасть в ИИ-выдачу» это базовое условие, а не оптимизация.</p>
+<p><strong>Как проверить.</strong> <code>curl -s URL | grep "&lt;фрагмент текста&gt;"</code> — текст находится. В DevTools отключаем JS — страница читаема и по ней можно ходить. В GSC → Проверка URL → HTML совпадает с тем, что видит пользователь. Краул Screaming Frog без рендеринга находит то же число страниц, что и с рендерингом.</p>
+
+<h3>2. Один канонический хост, чистые URL, управляемые canonical и hreflang</h3>
+<p><strong>Что сделать.</strong> Выбрать один хост (https, с www или без) и 301 всё остальное на него одним хопом. URL — строчные, без сессионных параметров, слеш в конце единообразно. Self-referencing canonical на каждой странице, при этом переопределяемый из админки. Языковые версии — <code>/en/</code>, <code>/ru/</code> с hreflang и <code>x-default</code>, ссылки парные в обе стороны.</p>
+<p><strong>Зачем.</strong> Дубли на старте размазывают траст, которого и так нет. У продукта с международной аудиторией две языковые версии без hreflang начинают каннибализировать друг друга, и поиск показывает русскую страницу американскому пользователю.</p>
+<p><strong>Как проверить.</strong> Все четыре варианта хоста (http/https × www/без) дают один 301 без цепочек. Краул Screaming Frog: ноль страниц с двумя canonical, ноль дублирующихся title, ноль 302 в цепочках. Валидатор hreflang: все возвратные ссылки на месте, <code>x-default</code> указан.</p>
+
+<h3>3. Мета-теги, H1 и Schema.org управляются из админки и не могут быть пустыми</h3>
+<p><strong>Что сделать.</strong> Title, description, H1, canonical и OG — поля на каждой странице, с шаблоном по умолчанию и запретом сохранить пустое значение. На уровне шаблонов сразу внедряются <code>Organization</code> и <code>WebSite</code> на главной, <code>SoftwareApplication</code> с <code>offers</code> на <code>/pricing/</code>, <code>FAQPage</code> где есть FAQ, <code>BreadcrumbList</code> всюду, <code>Article</code> с <code>author</code> в блоге, <code>TechArticle</code> в документации. В <code>Organization</code> — <code>sameAs</code> на LinkedIn, Crunchbase, GitHub, G2.</p>
+<p><strong>Зачем.</strong> Разметка — самый дешёвый способ сделать факты о продукте машиночитаемыми: кто компания, сколько стоит, кто автор. Без неё поиск и ИИ вынуждены угадывать, а в финансовой нише угадывать они не любят. Закладывать это нужно в шаблон: добавлять разметку руками на 50 страниц постфактум дороже, чем один раз в шаблонизаторе.</p>
+<p><strong>Как проверить.</strong> Rich Results Test и Schema Markup Validator — ноль ошибок на каждом типе шаблона. Выборка 20 URL из краула: у каждого свои title и H1, длина считана программно, а не на глаз. Попытка опубликовать страницу с пустым title при тесте блокируется.</p>
+
+<h3>4. Производительность в бюджете и CDN в целевых регионах</h3>
+<p><strong>Что сделать.</strong> Бюджет на запуск на мобильном 4G: LCP ≤ 2,0 с, INP ≤ 200 мс, CLS ≤ 0,1. Критичный CSS инлайном, шрифты локально с <code>font-display: swap</code>, картинки WebP/AVIF с явными <code>width</code> и <code>height</code>, lazy-load ниже первого экрана, CDN с узлами в целевых регионах, HTTP/2 или выше, корректные кэш-заголовки.</p>
+<p><strong>Зачем.</strong> У CEQ аудитория в разных регионах, а значит разная латентность: сайт, быстрый из Москвы, может грузиться 6 секунд из Сингапура. Для платёжного сервиса медленный сайт бьёт сразу по трём направлениям: ранжирование, конверсия и впечатление надёжности.</p>
+<p><strong>Как проверить.</strong> Lighthouse на мобильном — не ниже 90 по performance на шаблонах главной, <code>/pricing/</code>, <code>/vs/</code> и <code>/docs/</code>. WebPageTest из трёх регионов — TTFB в пределах бюджета из каждого. Через 4 недели после запуска — реальные данные Core Web Vitals в GSC, а не лабораторный тест.</p>
+
+<h3>5. Индексация под контролем с первого дня, ИИ-боты открыты, аналитика стоит до запуска</h3>
+<p><strong>Что сделать.</strong> <code>robots.txt</code> открывает публичное и закрывает кабинет, <code>/api/</code>, поиск и параметрические URL; явно разрешает GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bingbot, YandexBot. Динамический XML-sitemap с <code>lastmod</code>, разбитый по типам (pages, docs, learn, vs), указан в <code>robots.txt</code>. Стейджинг закрыт паролем, а не только <code>noindex</code>. GSC, Яндекс.Вебмастер, GA4 и Метрика подключены до запуска, события на регистрацию и получение API-ключа настроены. В GA4 сразу заводится отдельный канал для ИИ-трафика по referrer.</p>
+<p><strong>Зачем.</strong> Самая частая и самая дорогая ошибка запуска — уехавший в прод <code>noindex</code> или <code>robots.txt</code> со стейджинга; месяц работы в никуда. И отдельно: если в <code>robots.txt</code> закрыты ИИ-боты, задача по ИИ-выдаче не решается в принципе. Аналитика до запуска нужна, чтобы была нулевая точка — без неё через полгода нечего будет показать руководству.</p>
+<p><strong>Как проверить.</strong> <code>curl -A "GPTBot" URL</code> → 200 и полный HTML; то же для ClaudeBot и PerplexityBot. Поиск <code>noindex</code> по исходникам прода даёт ноль совпадений на публичных шаблонах. Sitemap валиден и содержит только канонические URL с кодом 200. GSC → Страницы: ни одной публичной страницы в «Исключено по noindex».</p>
+
+<h3>Что было бы шестым пунктом</h3>
+<p>Не вошло в пять, но заложил бы сразу: серверные логи с доступом на выгрузку (без них не видно, что и как часто краулят боты, в том числе ИИ-боты) и возможность править <code>robots.txt</code>, редиректы и заголовки без релиза — иначе каждая SEO-правка ждёт спринта разработки.</p>
+
+<h2>Задание 2. Видимость в ИИ-ответах</h2>
+
+<p>Важное различие, из которого следует весь приоритет: ответ нейросети складывается из двух источников — того, что модель запомнила на обучении, и того, что она достала поиском в момент запроса. На первое влиять быстро нельзя — следующий обучающий цикл будет не скоро. Значит, за шесть месяцев работаем почти исключительно по второму каналу: добиваемся, чтобы CEQ лежал в тех сторонних источниках, куда модель ходит за ответом.</p>
+
+<p>А ходит она в вполне конкретные места. По сводному анализу пяти исследований цитирования за I квартал 2026 года (<a href="https://contently.com/2026/04/29/top-sources-llms-cite/">Contently</a>), Reddit входит в топ-5 цитируемых источников у всех движков без исключения и доходит до каждой пятой ссылки в Perplexity; LinkedIn за три месяца поднялся с около 11-го на 5-е место в ChatGPT и попадает в 14,3 % ответов ChatGPT Search; Wikipedia даёт около 7,8 % всех цитат ChatGPT; площадки отзывов — G2, Capterra, Trustpilot — идут шестыми в общем зачёте, а G2 входит в топ-5 именно у Perplexity. Собственный сайт компании в этих списках не фигурирует вообще. Поэтому первые три действия — вне сайта, и только потом сам сайт.</p>
+
+<h3>1. Зайти в каталоги и площадки отзывов — вне сайта</h3>
+<p>G2 (категория Cryptocurrency Payment Gateways, где уже стоят CoinGate, Cryptomus и NOWPayments), Capterra, Trustpilot, AlternativeTo, Product Hunt, SourceForge. Заводим верифицированный профиль, заполняем все поля сравнения (комиссия, монеты, сети, интеграции, KYC, сроки расчётов) и собираем 10–15 отзывов у действующих клиентов.</p>
+<p>Почему первым: пока у продукта ноль упоминаний, моделям физически нечего извлекать, а профиль заводится за дни, а не за месяцы. Побочный эффект: G2 сам генерит страницы «CEQ vs X» и «CEQ alternatives», которые занимают брендовую выдачу раньше, чем наш сайт.</p>
+<p>Проверка: прогон промптов вроде «best crypto payment gateways for SaaS» — CEQ появляется в ответе, G2 или Capterra — в блоке источников.</p>
+
+<h3>2. Попасть в обзорные подборки «best crypto payment gateway» — вне сайта</h3>
+<p>Именно эти страницы поиск нейросети достаёт по сравнительным запросам: <a href="https://www.techrepublic.com/article/best-crypto-payment-gateways/">TechRepublic</a>, <a href="https://en.cryptonomist.ch/2026/07/31/best-crypto-payment-gateways-in-2026-features-fees-and-business-comparison/">Cryptonomist</a>, <a href="https://fintechnews.sg/126294/crypto/best-crypto-payment-gateways-for-businesses-in-2026/">Fintech News Singapore</a>, <a href="https://blog.availproject.org/best-cryptocurrency-payment-gateways/">Avail</a>, <a href="https://wpreset.com/best-crypto-payment-gateways-for-business-in-2026/">WP Reset</a>. Механика: питч редакциям с готовым фактологическим one-pager, плюс предложение уточнить уже опубликованную статью («в вашей таблице нет X, вот данные») — это срабатывает чаще, чем холодное «напишите про нас». Главное условие — строка в сравнительной таблице, а не абзац в конце: из таблиц модели извлекают факты гораздо надёжнее.</p>
+<p>Почему вторым: одно попадание работает сразу на все движки и на классический поиск, но цикл согласования 3–8 недель — поэтому запускать питчи надо в первую неделю, а результат считать на второй месяц.</p>
+<p>Проверка: число подборок с упоминанием CEQ и появление их URL в источниках ИИ-ответов.</p>
+
+<h3>3. Живое присутствие в Reddit, LinkedIn и сообществах разработчиков — вне сайта</h3>
+<p>r/CryptoCurrency, r/ecommerce, r/SaaS, r/woocommerce, Stack Overflow по тегам <code>payment-gateway</code> и <code>woocommerce</code>, BitcoinTalk, LinkedIn — страница компании и личные посты основателя и CTO. Механика: сотрудники отвечают от своего имени, с раскрытием аффилиации, на реальные вопросы «какой процессинг взять для X»; инженеры пишут технические разборы — например, почему USDT в TRC20 дешевле ERC20 и как это меняет экономику мелкого чека.</p>
+<p>Почему третьим: по отдаче это первое место — Reddit цитируется чаще всего. Но результат нельзя ни купить, ни ускорить: нужны месяцы живой активности, а маркетинговый спам там ловят и банят вместе с доменом.</p>
+<p>Проверка: мониторинг упоминаний бренда плюс появление reddit- и linkedin-URL в источниках ИИ-ответов.</p>
+
+<h3>4. Сделать сайт машиночитаемым — на сайте</h3>
+<p>Открытая <code>/pricing/</code> с реальными цифрами в HTML, а не за регистрацией. Таблица монет и сетей с комиссиями и временем подтверждения. <code>/compliance/</code> с юрисдикцией, лицензией и AML-политикой. На каждой ключевой странице — блок прямых ответов (вопрос → ответ в 40–60 слов) с <code>FAQPage</code>-разметкой. <code>llms.txt</code> в корне и открытые ИИ-боты в <code>robots.txt</code>.</p>
+<p>Почему четвёртым: без этого модель будет отвечать о CEQ цифрами конкурентов или «уточните на сайте». Но сам по себе сайт без внешних упоминаний в ответы не попадает — поэтому не первым.</p>
+<p>Проверка: <code>curl -A "GPTBot"</code> на <code>/pricing/</code> отдаёт цифры текстом; запрос «what are CEQ fees» в Perplexity возвращает верные цифры со ссылкой на нашу страницу.</p>
+
+<h3>5. Выпустить свои данные, которых нет ни у кого — на сайте</h3>
+<p>Квартальный отчёт на своих агрегированных обезличенных данных: средняя комиссия сети по месяцам, доля USDT против BTC в B2B-платежах, среднее время подтверждения по сетям, доля недоплат на платёжной странице. Плюс публичный <code>/status/</code> с uptime. Один отчёт в квартал, выложенный на <code>/research/</code>, с рассылкой в отраслевые медиа.</p>
+<p>Почему пятым: самый медленный пункт и единственный с устойчивым преимуществом. Оригинальная статистика — единственный тип контента, который перецитируют годами и который в итоге попадает не только в текущий поиск модели, но и в следующие обучающие корпуса, то есть влияет на тот канал, на который иначе повлиять нельзя.</p>
+<p>Проверка: ссылки на <code>/research/</code> и цитирование наших цифр в ИИ-ответах по запросам про комиссии сетей.</p>
+
+<h2>Задание 3. ТЗ англоязычному копирайтеру</h2>
+
+<p>Две ремарки перед ТЗ. В формулировке задания страница названа «SEQ vs CryptoCloud» — считаю это опечаткой и пишу ТЗ на «CEQ vs CryptoCloud». И второе: у запроса <code>cryptocloud alternative</code> в английском сегменте частотность невысокая — CryptoCloud ориентирован прежде всего на русскоязычный рынок. Ценность страницы не в трафике, а в двух других вещах: она перехватывает самый горячий интент (человек уже выбирает) и становится готовым фактологическим артефактом, который цитируют нейросети. Поэтому шаблон ТЗ делается переиспользуемым: по нему же потом делаются страницы против NOWPayments, Cryptomus и CoinGate, у которых спрос в английском заметно выше.</p>
+
+<h3>Content Brief — “CEQ vs CryptoCloud” comparison page</h3>
+
+<div class="tablewrap">
+<table>
+<thead><tr><th>Field</th><th>Value</th></tr></thead>
+<tbody>
+<tr><td>URL</td><td><code>/vs/cryptocloud/</code></td></tr>
+<tr><td>Primary keyword</td><td>ceq vs cryptocloud</td></tr>
+<tr><td>Secondary keywords</td><td>cryptocloud alternative, cryptocloud fees, cryptocloud review, crypto payment gateway comparison</td></tr>
+<tr><td>Search intent</td><td>Bottom of funnel — the reader is choosing a provider right now</td></tr>
+<tr><td>Word count</td><td>1,400–1,800 words</td></tr>
+<tr><td>Deliverable</td><td>Google Doc. Comparison data as a real table, not a screenshot</td></tr>
+<tr><td>Language</td><td>US English</td></tr>
+</tbody>
+</table>
+</div>
+
+<p><strong>1. Who reads this page</strong></p>
+<p>A founder, CTO or head of payments at an online business — SaaS, e-commerce, online education, digital goods — somewhere between 5 and 200 people, selling to customers in several countries. They either already accept crypto through CryptoCloud, or they are comparing providers today. They are technically literate: they know what a webhook is, what TRC20 means, and that a network fee is not the same thing as a processor fee.</p>
+<p>They do not need to be told what a crypto payment gateway is. If the page explains that, they close it.</p>
+
+<p><strong>2. What they are deciding</strong></p>
+<p>One of two things:</p>
+<ul>
+<li><em>Should I move off CryptoCloud?</em> They have a specific complaint — a fee, a settlement delay, a missing network, support, a coin they need.</li>
+<li><em>Which of the two do I integrate?</em> They are setting this up for the first time and CryptoCloud came up first in search.</li>
+</ul>
+<p>The page succeeds if the reader can say, by the end, which provider fits their case and why — without contacting sales.</p>
+
+<p><strong>3. Non-negotiable rules</strong></p>
+<ol>
+<li><strong>Every factual claim about CryptoCloud is sourced and dated.</strong> Link the source — CryptoCloud’s own pricing or docs page wherever possible — and write “as of &lt;month year&gt;” next to any figure. Pricing in this market changes.</li>
+<li><strong>Never write a number you cannot link to.</strong> If you cannot verify it, leave that row out of the table. Do not write “n/a” and do not estimate.</li>
+<li><strong>No disparagement.</strong> No “CryptoCloud is unreliable,” no hint that they are unsafe or unlicensed. Describe mechanics, not character. Anything else is a legal risk and makes the page useless as a citation.</li>
+<li><strong>Name at least two cases where CryptoCloud is the better choice, concretely.</strong> A comparison page that wins every row reads as an ad, and neither buyers nor AI assistants cite an ad. This is the most important rule in this brief.</li>
+<li><strong>No superlative without a number behind it.</strong> “Fastest settlement” is not a claim. “Settlement in under 12 minutes, measured across 40,000 payouts in Q3 2026” is.</li>
+<li><strong>Never state or imply that CEQ helps merchants avoid KYC, AML or tax obligations.</strong></li>
+</ol>
+
+<p><strong>4. Facts about CEQ</strong></p>
+<p>The product team fills these in before you start writing. Do not research them yourself and do not guess: processor fee and volume tiers; who can be charged the network fee; supported coins; supported networks; settlement currency and whether auto-conversion is forced; settlement time; minimum payout; merchant verification requirements; available integrations; API, SDKs and sandbox; webhook retry behaviour; payment-page languages; invoice rate-lock window; support channels and hours; published uptime or SLA; legal entity and jurisdiction; AML screening provider.</p>
+
+<p><strong>5. What is publicly known about CryptoCloud</strong></p>
+<p>Starting point only. Verify every line against CryptoCloud’s own site before publishing, and date whatever you keep. Source: a <a href="https://partnerkin.com/blog/services/cryptocloud-obzor">sponsored review on Partnerkin</a> with activity through October 2025, cross-checked against a <a href="https://crmindex.ru/blog/platejnyy_shlyuz_kriptovalyut_cryptocloud_obzor_servisa_dlya_priema_platejey">2023 CRM Index review</a>.</p>
+
+<div class="tablewrap">
+<table>
+<thead><tr><th>Item</th><th>What the sources say</th></tr></thead>
+<tbody>
+<tr><td>Processor fee</td><td>From 0.4% per transaction; custom terms for high volume</td></tr>
+<tr><td>Who pays the network fee</td><td>Configurable per project — merchant or customer</td></tr>
+<tr><td>Coins</td><td>BTC, ETH, LTC, USDC, TUSD, USDT</td></tr>
+<tr><td>Networks</td><td>ERC20, TRC20</td></tr>
+<tr><td>Settlement currency</td><td>Incoming payments auto-converted to USDT</td></tr>
+<tr><td>Merchant verification</td><td>Email and a Telegram handle; no documents, no company status required</td></tr>
+<tr><td>AML</td><td>Transaction screening; high-risk operations blocked</td></tr>
+<tr><td>Payment page</td><td>7 languages; invoice valid 24 hours with the rate locked for that window</td></tr>
+<tr><td>Integration</td><td>REST API, CMS modules, HTML widget, payment links, QR codes, test mode</td></tr>
+<tr><td>Support</td><td>Live chat, Telegram, email; interface in Russian and English</td></tr>
+</tbody>
+</table>
+</div>
+
+<p><strong>6. Structure</strong></p>
+<p><strong>H1:</strong> CEQ vs CryptoCloud: Fees, Networks and Settlement Compared</p>
+<p><strong>Opening, 80–120 words.</strong> Answer the question in the first two sentences: which provider suits which kind of business. No scene-setting, no “in today’s fast-moving crypto landscape.”</p>
+<p><strong>H2 At a glance.</strong> The comparison table. Use this row order, because it is the order the reader checks: processor fee · who pays the network fee · coins · networks · settlement currency and forced conversion · settlement time · minimum payout · merchant verification · integrations · sandbox · webhook retries · payment-page languages · rate-lock window · support channels and hours · legal entity and jurisdiction · published uptime.</p>
+<p><strong>H2 Fees: what you actually pay.</strong> Work two examples end to end — a $100 invoice in USDT on TRC20, and a $2,000 invoice in BTC. For each provider show the processor fee, the network fee, any conversion spread, and what lands in the merchant’s balance. One small table. This section is the reason the page ranks, so it gets the most care.</p>
+<p><strong>H2 Settlement and payouts.</strong> How long funds take to become withdrawable, in what currency, with what minimum, and what the merchant cannot control.</p>
+<p><strong>H2 Coins and networks: which to choose.</strong> Practical guidance, not a list. Which network makes sense for a $20 invoice versus a $5,000 one, and what breaks if the customer picks the wrong one.</p>
+<p><strong>H2 Integration and developer experience.</strong> Written for the person who will do the work: time to a first successful test payment, what the sandbox covers, how webhooks retry and whether they are idempotent, which SDKs exist.</p>
+<p><strong>H2 Verification, AML and what it means for your risk.</strong> Neutral and factual. Explain the trade-off between light onboarding and merchant-side risk. Do not frame weak verification as a benefit.</p>
+<p><strong>H2 When CryptoCloud is the better choice.</strong> At least two concrete cases, each tied to a row in the table.</p>
+<p><strong>H2 When CEQ is the better choice.</strong> Same standard. No case that is really a slogan.</p>
+<p><strong>H2 FAQ.</strong> Five to seven questions, each answered in 40–60 words that stand alone if lifted out of the page — these feed <code>FAQPage</code> markup and AI answers. Include at least: Does CryptoCloud require KYC? · What are CryptoCloud’s fees? · Can I migrate from CryptoCloud to CEQ without downtime? · Which is cheaper for small USDT payments?</p>
+<p><strong>Closing.</strong> One sentence, then a link to the <code>/docs/</code> quickstart. Not “contact sales” — this reader wants to try it.</p>
+
+<p><strong>7. Tone</strong></p>
+<p>Write as a solutions engineer explaining a trade-off to a peer. Active voice, present tense, specific nouns, sentences under 25 words. Banned: seamless, robust, cutting-edge, game-changer, revolutionise, “in the world of,” “look no further.” Numbers as digits with currency symbols. The brand is written CEQ — never Ceq or ceq.</p>
+
+<p><strong>8. SEO requirements</strong></p>
+<ul>
+<li>Title tag up to 60 characters: <code>CEQ vs CryptoCloud: Fees, Networks &amp; Settlement (2026)</code></li>
+<li>Meta description 150–155 characters, with the primary keyword and one concrete differentiator</li>
+<li>One H1. Primary keyword in the H1 and in the first 100 words, used naturally; do not repeat it in every H2</li>
+<li>Contextual in-body internal links to <code>/pricing/</code>, <code>/docs/</code>, <code>/integrations/woocommerce/</code>, <code>/accept/usdt/</code>, <code>/compliance/</code> and one other <code>/vs/</code> page</li>
+<li>Every external factual claim links to its source with a descriptive anchor — never “click here”</li>
+<li>A byline with a real name and role, plus a visible “last updated” date. This is a finance topic and the page needs an accountable author</li>
+<li>The phrase “crypto payment gateway” appears no more than four times in the body</li>
+</ul>
+
+<p><strong>9. What will be sent back for rework</strong></p>
+<p>Any CryptoCloud figure without a link. A conclusion where CEQ wins every row. Content rewritten from a competitor’s comparison page. A page that would still make sense if you swapped the competitor’s name for any other — that means it says nothing specific.</p>
+
+<p><strong>10. Definition of done</strong></p>
+<p>Every table cell holds either a sourced value or nothing at all. Both “when X is better” sections carry at least two concrete cases. The fees section contains a worked calculation with real numbers. Every FAQ answer stands alone out of context. A reader who knew nothing about CEQ can state, after one read, which provider they should pick and why.</p>
+
+<h2>Задание 4. Ссылки и упоминания — первые 3 месяца</h2>
+
+<p>На молодом домене в финансовой нише ссылки нужны не для «наращивания массы» — быстрый рост ссылочного профиля здесь быстрее всего приводит к фильтру. Задача другая: создать след бренда в тех местах, куда смотрят и покупатели, и нейросети. Поэтому три из пяти площадок дают nofollow — и это нормально, я иду туда не за весом.</p>
+
+<div class="tablewrap">
+<table>
+<thead><tr><th>Площадка</th><th>Как добьюсь</th><th>Ожидаемый эффект</th><th>Месяц</th></tr></thead>
+<tbody>
+<tr>
+<td><strong>G2</strong> и <strong>Capterra</strong> (категория Cryptocurrency Payment Gateways)</td>
+<td>Верифицированный vendor-профиль, все поля сравнения заполнены. Отдельная кампания по сбору 10–15 отзывов — личные письма от аккаунт-менеджера действующим клиентам, без стимулов, запрещённых правилами платформ</td>
+<td>Ссылка nofollow, но иду за другим: профиль закрывает брендовую выдачу (<code>ceq review</code>, <code>ceq alternatives</code>) раньше нашего сайта, G2 сам генерит страницы «CEQ vs X», и это самый быстрый вход в ИИ-выдачу. Реферальный трафик малый, конверсия высокая</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>WordPress.org Plugin Directory</strong> — плагин <code>ceq-for-woocommerce</code> по образцу <a href="https://wordpress.org/plugins/nowpayments-for-woocommerce/">NOWPayments</a></td>
+<td>Официальный плагин силами разработки, в <code>readme.txt</code> — ссылки на сайт и <code>/docs/</code>. Дальше так же Shopify App Store, PrestaShop Addons, Magento Marketplace</td>
+<td>Дофоллоу с одного из самых трастовых доменов в вебе плюс канал дистрибуции: страница плагина сама ранжируется по <code>woocommerce crypto payment gateway</code>. Единственный пункт с двойной отдачей — SEO и установки</td>
+<td>1–2</td>
+</tr>
+<tr>
+<td>Обзорные подборки: <a href="https://www.techrepublic.com/article/best-crypto-payment-gateways/">TechRepublic</a>, <a href="https://en.cryptonomist.ch/2026/07/31/best-crypto-payment-gateways-in-2026-features-fees-and-business-comparison/">Cryptonomist</a>, <a href="https://fintechnews.sg/126294/crypto/best-crypto-payment-gateways-for-businesses-in-2026/">Fintech News Singapore</a>, <a href="https://blog.availproject.org/best-cryptocurrency-payment-gateways/">Avail</a>, <a href="https://wpreset.com/best-crypto-payment-gateways-for-business-in-2026/">WP Reset</a></td>
+<td>Питч с готовым one-pager фактов плюс предложение дополнить уже опубликованную таблицу. Где редполитика позволяет — платное размещение. Условие — строка в сравнительной таблице, а не абзац в конце</td>
+<td>Тематические ссылки с медиа плюс прямое влияние на ИИ-ответы по сравнительным запросам — это именно те страницы, которые модели достают. Реалистично 2–3 попадания из 8–10 питчей</td>
+<td>1–3</td>
+</tr>
+<tr>
+<td><strong>Reddit</strong> (r/woocommerce, r/SaaS, r/ecommerce, r/CryptoCurrency), <strong>Stack Overflow</strong>, для RU — <strong>Habr</strong> и <strong>vc.ru</strong></td>
+<td>Инженеры отвечают от своего имени с раскрытием аффилиации на реальные вопросы. На Habr — технический лонгрид вроде «почему курс фиксируется на 24 часа и кто платит за волатильность»</td>
+<td>Reddit — самый цитируемый ИИ источник; ссылки nofollow, но контент попадает в retrieval. Habr даёт дофоллоу и долгоиграющий поисковый трафик. Риск: явный маркетинг = бан домена, поэтому только по делу</td>
+<td>1–3, постоянно</td>
+</tr>
+<tr>
+<td>Отраслевые медиа под своё исследование — ForkLog, PYMNTS, Fintech Futures, Fintech News, региональные Cointelegraph</td>
+<td>Выпускаем «CEQ Crypto Payments Report Q1» на своих обезличенных данных, кладём на <code>/research/</code>, рассылаем 15–20 журналистам с готовыми графиками и цитатой CEO</td>
+<td>Единственный пункт, дающий естественные ссылки без оплаты и работающий накопительно: статистику перецитируют другие статьи и подборки. Ожидание по первой волне — 3–8 ссылок</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h3>Правила, которые соблюдаю все три месяца</h3>
+<ul>
+<li><strong>Темп.</strong> Не больше 5–8 новых ссылающихся доменов в месяц. Скачок с нуля до сотни доменов за месяц в финансовой нише — прямой путь под Минусинск и аналоги.</li>
+<li><strong>Анкоры.</strong> 55–60 % брендовые и безанкорные, 25–30 % размытые, не больше 10–15 % точных коммерческих. Ведётся реестр анкоров, чтобы не повторяться.</li>
+<li><strong>Акцепторы.</strong> Не вся масса на главную. Распределяем на <code>/pricing/</code>, <code>/integrations/woocommerce/</code>, <code>/vs/cryptocloud/</code>, <code>/research/</code>. Одна страница — не чаще раза в 3–4 недели.</li>
+<li><strong>Чего не делаю.</strong> Не покупаю PBN и крипто-сетки, не ставлю ссылки с сайтов про казино и серые схемы. Процессингу с таким соседством в профиле потом трудно доказывать благонадёжность — ни поисковику, ни банку-партнёру.</li>
+</ul>
+
+<p>Одно замечание про горизонт: ссылки дают видимый эффект через 3–6 недель после размещения. Значит, работа третьего месяца покажется в позициях только к пятому — оценивать квартал по ссылкам раньше бессмысленно, и это надо оговорить с руководством заранее.</p>
+
+<h2>Задание 5. Метрики для руководства через 6 месяцев</h2>
+
+<p>За шесть месяцев на новом сайте позиции успевают вырасти сильнее, чем выручка — в B2B-процессинге цикл от заявки до первой транзакции длинный. Поэтому показываю связку «деньги → воронка → опережающие индикаторы», а не одну цифру. Доклад строится сверху вниз: первые две метрики отвечают на вопрос «окупается ли», остальные три объясняют, повторится ли результат в следующем полугодии.</p>
+
+<div class="tablewrap">
+<table>
+<thead><tr><th>Метрика</th><th>Что именно считаю</th><th>Откуда данные</th></tr></thead>
+<tbody>
+<tr>
+<td><strong>1. Подключённые мерчанты и комиссионный доход с органики и ИИ</strong></td>
+<td>Число мерчантов, дошедших до первой реальной транзакции, и оборот по ним — с атрибуцией к органике и отдельно к ИИ-источникам</td>
+<td>GA4 и Метрика → CRM по UTM и первому источнику + внутренняя БД по статусу первой транзакции. ИИ-трафик выделяется по referrer (chatgpt.com, perplexity.ai, claude.ai, gemini.google.com, copilot.microsoft.com) — канал надо завести в GA4 до запуска, иначе он упадёт в direct</td>
+</tr>
+<tr>
+<td><strong>2. CPA органики против платных каналов</strong></td>
+<td>Стоимость одного подключённого мерчанта из органики (бюджет SEO делённый на результат) рядом с CPA по Google Ads и Директу</td>
+<td>Затраты — из бюджета направления, результат — из метрики 1, платные каналы — из кабинетов и CRM</td>
+</tr>
+<tr>
+<td><strong>3. Доля упоминаний в ИИ-ответах (Share of AI Voice)</strong></td>
+<td>Фиксированный набор 30–50 коммерческих промптов прогоняется каждый месяц. Считаю два числа: долю ответов, где CEQ упомянут, и долю, где процитирован наш сайт</td>
+<td>Трекер видимости (Profound, Peec AI, Semrush AI Toolkit, SE Ranking) или свой скрипт через API моделей</td>
+</tr>
+<tr>
+<td><strong>4. Видимость по коммерческому ядру по сегментам</strong></td>
+<td>Доля ядра в топ-10 и топ-3 отдельно по <code>/vs/</code>, <code>/integrations/</code>, <code>/accept/</code>, плюс клики, показы и CTR. Среднюю позицию не показываю</td>
+<td>GSC и Яндекс.Вебмастер — клики, показы, CTR, страницы; Topvisor или SE Ranking — позиции по замороженному ядру</td>
+</tr>
+<tr>
+<td><strong>5. Ссылки, упоминания и индексация</strong></td>
+<td>Новые ссылающиеся домены, упоминания бренда без ссылки, доля страниц в индексе. Одним слайдом — это гигиена, а не цель</td>
+<td>Ahrefs или Semrush, Brand24 или Google Alerts, GSC → Страницы, Яндекс.Вебмастер</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h3>Два условия, без которых эти метрики не сработают</h3>
+<p><strong>Нулевой замер в первую неделю.</strong> Особенно для метрики 3: набор промптов надо зафиксировать и прогнать до начала работ. Если на старте замера не сделать, через полгода любой рост будет недоказуем.</p>
+<p><strong>Ядро и набор промптов не меняются внутри периода.</strong> Добавление новых низкоранжирующих запросов арифметически обваливает средние цифры и выглядит как просадка, которой не было. Новые запросы идут в отдельный сегмент.</p>
+
+<h3>Что я сознательно не покажу</h3>
+<p>Среднюю позицию, общий трафик без сегментации, DR и ИКС, число написанных статей и размещённых ссылок. Это метрики процесса: они растут даже тогда, когда бизнес-результата нет, и руководство справедливо им не верит. В рабочем трекере они нужны, в докладе для руководства — нет.</p>
+
+<h2>Источники</h2>
+
+<p>Страницы, которые открывал и из которых взяты цифры и факты:</p>
+<ul>
+<li><a href="https://contently.com/2026/04/29/top-sources-llms-cite/">Top 10 Sources LLMs Cite Most in 2026</a> — Contently, 29.04.2026. Сводный анализ пяти исследований цитирования за I квартал 2026 (Peec AI, SEMrush, Profound, Spotlight, SE Ranking). Оттуда взяты доли по Reddit, LinkedIn, Wikipedia и G2.</li>
+<li><a href="https://partnerkin.com/blog/services/cryptocloud-obzor">Обзор CryptoCloud</a> — Partnerkin. Активность на странице до октября 2025. Комиссия от 0,4 %, сети, автоконверсия в USDT, требования к регистрации.</li>
+<li><a href="https://crmindex.ru/blog/platejnyy_shlyuz_kriptovalyut_cryptocloud_obzor_servisa_dlya_priema_platejey">Платёжный шлюз CryptoCloud</a> — CRM Index, 13.03.2023. Использовал для перекрёстной проверки состава монет и интеграций.</li>
+</ul>
+
+<p>Адреса площадок для заданий 2 и 4 найдены через выдачу по запросам ниши — сами публикации целиком не разбирал. Перед питчем каждую надо проверить на редполитику и дату последнего обновления.</p>
+
+<p>Данные по CryptoCloud — из сторонних обзоров, притом один из них спонсорский. Сайт самого сервиса открыть не удалось, поэтому в ТЗ копирайтеру эти цифры стоят как отправная точка с прямым требованием перепроверить каждую перед публикацией, а не как готовый факт.</p>
+
+</div>
+</body>
+</html>
